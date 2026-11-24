@@ -1,0 +1,155 @@
+:root{
+    --white-color: #ffffff;
+    --orange-color: #ff9900;
+    --cyan-color: #00ccff;
+    --dark-blue-color:#001a33;
+    --light-blue-color:#10273e;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+}
+/*sidebar */
+.sidebar{
+    min-height: 100vh;
+    background-color:var(--light-blue-color);
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    padding-top: 30px;
+    padding-left: 0px;
+
+
+}
+.barnd-name-h5{
+    font-size: 30px;
+}
+
+.brand-name-paragraph{
+    color: var(--cyan-color);
+    text-transform: uppercase;
+}
+
+.side{
+    list-style-type: none;
+}
+.side li{
+    /*border: 2px solid red;*/
+    margin-bottom: 20px;
+}
+.side a{
+    color: var(--white-color);
+    font-size: 17px;
+    text-decoration: none;
+}
+.side-menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.side-menu-items{
+    border: spx solid red;
+    margin-bottom: 
+}
+
+/*end of side bar */
+.main-body{
+    padding-left:300px;
+    
+}
+
+.col-sm-6{
+    padding-top: 80px;
+
+}
+
+.name{
+    color:#ff9900
+}
+
+.h{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #66ccff;
+}
+.row{
+    padding-top: 10px;
+}
+
+.brand-image{
+    width: 300px;
+    height: 300px;
+    border: 3px solid#66ccff;
+    border-radius: 50%;
+}
+.brand-logo{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.brand-sidebar-image{
+    height: 80px;
+    width: 80px;
+    border-width: 2spx;
+    border-color: var(--cyan-color);
+    border-style: solid;
+    border-radius: 50%;
+}
+.btn-primary{
+    background-color:var(--orange-color);
+
+}
+
+.btn-hire{
+    background-color:var(--dark-blue-color);
+    border: 2px solid var(--cyan-color);
+    margin-right: 50px;
+}
+
+.icons{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.icons a{
+    color: var(--white-color);
+    font-size: 17px;
+}
+
+.brand-name{
+    border-bottom: 1px solid var(--cyan-color);
+    padding-left: 30px;
+}
+
+.footer-paragraph{
+    color: #808080;
+}
+
+.get-to-know-me-paragraph{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--cyan-color);
+}
+
+.about-me-h6{
+    font-size: 32px;
+}
+
+.me-span-text{
+    color: var(--orange-color)
+}
+
+.get-to-know-me{
+    padding-top: 20px;
+}
+
+.hi{
+    font-size: 50px;
+}
+
+.social-media{
+    border: 2px solid green;
+     margin-top: 20px;
+}
