@@ -133,10 +133,24 @@ body{
     color: var(--cyan-color);
 }
 
-.about-me-h6{
+.about-me-h6,
+.h6{
     font-size: 32px;
+    position: relative;
+  padding-bottom: 14px; /* Space between text and the line */
+    
 }
-
+.about-me-h6::after,
+.h6::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #00b4d8 0%, #ff6b00 100%);
+}
 .me-span-text{
     color: var(--orange-color)
 }
@@ -150,6 +164,51 @@ body{
 }
 
 .social-media{
-    border: 2px solid green;
      margin-top: 20px;
+}
+
+.who_i_am{
+    color: var(--cyan-color);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.h6{
+    font-size: 25px;
+}
+
+.span{
+    color: var(--orange-color);
+}
+
+.who_i_am_p1{
+    line-height: 30px;
+}
+
+.first_td{
+    color: var(--cyan-color);
+}
+
+.second_td{
+    color: var(--white-color);
+}
+
+.download_cv{
+    background-color: var(--dark-blue-color);
+    color: var(--cyan-color);
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid var(--cyan-color);
+}
+
+.download-cv:hoover{
+    background-color: var(--cyan-color);
+    color: var(--dark-blue-color);
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: 2px solid var(--cyan-color);
 }
