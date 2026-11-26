@@ -202,8 +202,7 @@ body{
     padding-bottom: 15px;
     border: 2px solid var(--cyan-color);
 }
-
-.download-cv:hoover{
+.download-cv:hover{
     background-color: var(--cyan-color);
     color: var(--dark-blue-color);
     padding-left: 33px;
@@ -211,4 +210,11 @@ body{
     padding-top: 13px;
     padding-bottom: 13px;
     border: 2px solid var(--cyan-color);
+}
+
+.my-work-card{
+    background-color: var(--light-blue-color);
+}
+.card-btn{
+    border: 1px solid var(--cyan-color);
 }
